@@ -1,0 +1,3109 @@
+DEBUG get_query: SELECT value FROM swat_s1 WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE swat_s1 SET value = ? WHERE name = ? AND pid = ?
+DEBUG EnipProtocol server addr:  192.168.1.10
+DEBUG: concatenating server address with default port.
+DEBUG enip _start_server cmd:  ['/usr/bin/python3', '-m', 'cpppo.server.enip', '--no-print', '--log', 'logs/protocols_tests_enip_server', '--address', '192.168.1.10:44818', 'FIT101:1=REAL', 'MV101:1=INT', 'LIT101:1=REAL', 'P201:1=INT', 'T201:1=REAL']
+DEBUG: Navy plc1 enters pre_loop
+DEBUG: Navy plc1 enters main_loop.
+temperature du moteur 0.0
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.2
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+WARNING PLC1 - lit101 under LL: 0.20 <= 0.25.
+temperature du moteur 26.13318634033203
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.256666666666664
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 28.359172821044922
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.313333333333328
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 34.79357147216797
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.369999999999993
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 38.396114349365234
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.417222222222213
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 48.25796127319336
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.473888888888878
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 56.11549377441406
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.511666666666654
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 64.23887634277344
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.558888888888875
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 72.29306030273438
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.596666666666651
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 76.97088623046875
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.643888888888872
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 84.34544372558594
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.681666666666648
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 92.28768157958984
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.728888888888868
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 94.6829833984375
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.757962962962941
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 90.84394073486328
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.759814814814792
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 75.82911682128906
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.761296296296272
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 43.77635955810547
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.772222222222196
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.624229431152344
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.809999999999974
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 65.59019470214844
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.809999999999974
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 81.27272033691406
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.809999999999974
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 92.98088836669922
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.791851851851826
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 92.95305633544922
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.746481481481456
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 55.17130661010742
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.701111111111086
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.24533462524414
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.655740740740716
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.15250015258789
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.655740740740716
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 74.5246810913086
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.655740740740716
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 92.19628143310547
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.655740740740716
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 99.50112915039062
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.601296296296272
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 69.05579376220703
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.546851851851828
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 43.932273864746094
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.519629629629606
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 63.8748664855957
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.519629629629606
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 80.74873352050781
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.519629629629606
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 101.21265411376953
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.474259259259236
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 62.19660949707031
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.476851851851826
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 42.33950424194336
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.497222222222194
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 74.46599578857422
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.553888888888859
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 97.83621978759766
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.573888888888858
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 97.8867416381836
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.575370370370338
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 50.059207916259766
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.577222222222188
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.643062591552734
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.615740740740706
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 78.08868408203125
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.662962962962927
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 104.29536437988281
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.673888888888851
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 95.33953094482422
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.676111111111072
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 46.77667999267578
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.677962962962922
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.3373908996582
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.706666666666625
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 87.66880798339844
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.76333333333329
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 101.38379669189453
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.765555555555511
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 62.58402633666992
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.767037037036992
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.380340576171875
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.778333333333286
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.68198013305664
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.825555555555507
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 96.06398010253906
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.771111111111063
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 61.15914535522461
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.725740740740693
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.23015594482422
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.680370370370323
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.31729507446289
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.680370370370323
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 93.20671081542969
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.671296296296249
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 106.2181625366211
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.616851851851805
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 57.009063720703125
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.571481481481435
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.39619064331055
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.526111111111065
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.17097091674805
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.526111111111065
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 95.83111572265625
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.498888888888843
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 68.82308959960938
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.501111111111063
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 43.900779724121094
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.503333333333283
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.64479446411133
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.550555555555505
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 102.89080047607422
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.561851851851799
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 99.8235855102539
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.563703703703649
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 50.39577865600586
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.565925925925869
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.330020904541016
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.613148148148089
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 104.57366180419922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.624074074074013
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 95.57907104492188
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.626296296296233
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 50.673954010009766
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.628148148148083
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.33885192871094
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.675370370370304
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 106.08479309082031
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.695370370370303
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 99.92694854736328
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.696851851851784
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 51.50896453857422
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.698703703703634
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.73574447631836
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.718703703703633
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 88.3148193359375
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.765925925925854
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 102.92784118652344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.768148148148075
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 64.786376953125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.769999999999925
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.43375015258789
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.78129629629622
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.37168502807617
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.819074074073997
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 108.76504516601562
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.764629629629553
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 56.957252502441406
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.719259259259183
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.24778366088867
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.664814814814739
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.17045211791992
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.664814814814739
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 109.92689514160156
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.628518518518443
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 100.18663787841797
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.574074074073999
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 51.558837890625
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.519629629629555
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.366943359375
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.519629629629555
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 110.94734954833984
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.492407407407333
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 74.82260131835938
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.495370370370293
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 41.49222183227539
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.506666666666587
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.386844635009766
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.553888888888808
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 111.89452362060547
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.556111111111028
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 101.88018798828125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.557962962962878
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 44.59606170654297
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.560185185185098
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.17820739746094
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.598703703703615
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 94.90181732177734
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.600555555555465
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 50.543888092041016
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.602777777777685
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.3526611328125
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.632222222222127
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 96.96883392333984
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.643148148148051
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 101.64613342285156
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.645370370370271
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 50.71249008178711
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.647222222222121
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.3400764465332
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.685740740740639
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 96.57915496826172
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.687592592592489
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 56.210201263427734
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.689444444444339
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.33061599731445
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.700740740740634
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 99.05477142333984
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.721111111111002
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 83.74884796142578
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.722962962962853
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 49.761688232421875
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.725185185185073
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.30989074707031
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.763333333333221
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 112.08946990966797
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.793888888888774
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 58.958404541015625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.796851851851734
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.4034309387207
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.825925925925807
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 112.78875732421875
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.780555555555437
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 102.64986419677734
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.735185185185067
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.671878814697266
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.680740740740623
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.381961822509766
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.680740740740623
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 115.97804260253906
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.644444444444327
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 113.77973937988281
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.599074074073957
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.82099533081055
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.544629629629513
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.40700912475586
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.535555555555439
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 102.99127960205078
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.481111111110995
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 57.22416687011719
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.483703703703585
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 40.73809051513672
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.540740740740621
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.7042465209961
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.552407407407285
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 114.25969696044922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.554259259259135
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 44.99066162109375
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.574629629629503
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 111.0960693359375
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.604074074073946
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 104.43331146240234
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.605925925925796
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.374412536621094
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.607777777777646
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.761104583740234
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.637222222222089
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 105.3021011352539
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.648148148148013
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.1568374633789
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.649999999999863
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 51.8438835144043
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.651851851851713
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.37599182128906
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.689999999999861
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 105.99078369140625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.692222222222081
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 65.25239562988281
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.694074074073932
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.46070861816406
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.695925925925783
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.3786735534668
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.7344444444443
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 102.5134048461914
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.736666666666521
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.65517044067383
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.738518518518372
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.38113021850586
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.77740740740726
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 113.08720397949219
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.788333333333185
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 112.5383071899414
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.790185185185036
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.60526657104492
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.792037037036886
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.80582809448242
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.821111111110959
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 98.4190673828125
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.757592592592441
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 56.737342834472656
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.712222222222071
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.37388610839844
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.675925925925775
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.39447784423828
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.639629629629479
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 103.61475372314453
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.594259259259109
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.790035247802734
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.557962962962813
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.38784408569336
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.530740740740591
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 108.95327758789062
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.485370370370221
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 65.99864196777344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.487592592592441
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 42.740238189697266
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.50833333333318
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 109.47112274169922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.528333333333178
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 104.25080871582031
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.529814814814658
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.33936309814453
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.531666666666508
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.7888298034668
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.570185185185024
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 114.98658752441406
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.572037037036874
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 104.54154968261719
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.573888888888724
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.395198822021484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.575740740740574
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.39349365234375
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.613888888888721
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 110.39104461669922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.616111111110941
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 66.33588409423828
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.617592592592421
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.77578353881836
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.619444444444271
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.7952766418457
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.657592592592418
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 101.1051025390625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.659814814814638
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 66.43470001220703
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.661666666666488
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.786197662353516
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.682037037036856
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.39640426635742
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.7114814814813
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 107.13774108886719
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.71296296296278
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.893795013427734
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.715185185185001
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.82427215576172
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.744259259259074
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 111.6813735961914
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.755185185184999
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 112.37696838378906
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.757407407407219
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.577232360839844
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.759259259259069
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.39927291870117
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.797407407407215
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 112.05118560791016
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.799259259259065
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 66.70658874511719
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.801111111110916
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 42.81485366821289
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.755740740740546
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.80646896362305
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.728518518518324
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 96.70020294189453
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.683148148147954
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 48.06696701049805
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.62870370370351
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.40163040161133
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.610555555555362
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 112.75977325439453
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.565185185184992
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 102.62491607666016
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.510740740740548
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.6688232421875
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.456296296296104
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 40.180355072021484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.504629629629434
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 107.69827270507812
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.506481481481284
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.00144577026367
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.507962962962764
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.831153869628906
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.537407407407206
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 113.4408950805664
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.54833333333313
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 113.38752746582031
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.55055555555535
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.752838134765625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.55203703703683
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.40484619140625
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.590185185184977
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 113.73265075683594
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.592037037036827
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.0564956665039
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.593888888888677
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.780582427978516
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.595370370370157
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.81703567504883
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.624444444444229
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 105.80426025390625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.626296296296079
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 65.89962768554688
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.627777777777559
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.729801177978516
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.629629629629409
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.782100677490234
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.667777777777557
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 114.2640151977539
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.669629629629408
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 76.6636734008789
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.671111111110888
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.83000564575195
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.672592592592368
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.820194244384766
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.701666666666442
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 106.62051391601562
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.703518518518293
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 75.20122528076172
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.704999999999773
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.74856948852539
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.706851851851624
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.787479400634766
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.735925925925697
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 95.37733459472656
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.737777777777548
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 58.43351364135742
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.739629629629399
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.51311492919922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.750555555555323
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.39226150512695
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.779629629629396
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 107.1376953125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.781481481481246
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.23527145385742
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.783333333333097
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 44.98655700683594
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.803333333333096
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 115.21015930175781
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.757962962962726
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 104.7339859008789
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.72166666666643
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 47.927093505859375
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.67629629629606
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.39466857910156
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.658148148147912
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 115.41085815429688
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.621851851851616
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 76.9539794921875
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.576481481481246
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.29166793823242
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.531111111110876
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.826690673828125
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.512962962962728
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 108.48924255371094
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.467592592592358
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 66.46499633789062
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.469444444444208
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 42.789390563964844
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.489814814814576
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 115.81187438964844
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.509814814814574
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 114.60794067382812
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.511296296296054
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.34138107299805
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.512777777777534
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.58763885498047
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.514629629629384
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.19441604614258
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.552777777777531
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 109.13883972167969
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.554629629629381
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.47940826416016
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.556481481481231
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.89630889892578
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.558333333333081
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.82980728149414
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.587037037036784
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 105.57353210449219
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.588888888888634
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 75.98751831054688
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.590370370370114
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 44.87038040161133
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.591851851851594
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.188846588134766
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.611851851851593
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.35933685302734
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.622407407407147
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 112.63524627685547
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.624259259258997
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.62211227416992
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.625740740740477
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.80690383911133
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.645740740740475
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.52704620361328
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.656666666666399
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 105.86743927001953
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.658518518518249
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.649837493896484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.660370370370099
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.808677673339844
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.689074074073802
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 110.40737915039062
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.690925925925652
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 76.21819305419922
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.692777777777502
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.67411422729492
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.694629629629353
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.402347564697266
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.732407407407131
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.8145751953125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.734259259258982
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.61434936523438
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.736111111110833
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.91053009033203
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.737962962962683
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.414093017578125
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.776111111110831
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.95702362060547
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.778333333333052
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.475364685058594
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.780185185184902
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.598636627197266
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.800555555555271
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 117.0916748046875
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.773333333333049
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 115.1826171875
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.727962962962679
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.064781188964844
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.682592592592309
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.835205078125
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.664444444444161
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 117.22894287109375
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.628148148147865
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 115.23899841308594
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.582777777777495
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.07457733154297
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.537407407407125
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.83583068847656
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.528333333333051
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 111.76144409179688
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.482962962962681
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 76.5387191772461
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.484814814814531
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 44.944976806640625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.486296296296011
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 40.19173812866211
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.525185185184898
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 117.46612548828125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.527037037036748
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.41109466552734
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.528518518518228
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 45.06304168701172
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.530370370370078
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.8369140625
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.568518518518224
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 117.59605407714844
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.570740740740444
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.73298645019531
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.572592592592294
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.92303466796875
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.592962962962662
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 117.690185546875
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.622037037036735
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.66997528076172
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.623518518518215
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.67427444458008
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.625370370370065
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 48.409080505371094
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.626851851851545
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.418663024902344
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.655925925925618
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 112.7198486328125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.657777777777468
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.22647094726562
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.659259259258948
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.86964797973633
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.661111111110798
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.822166442871094
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.699259259258945
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 108.32013702392578
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.701111111110796
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.77689361572266
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.702962962962646
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.92766189575195
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.704444444444127
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.83879089355469
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.733888888888571
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 107.13167572021484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.735370370370051
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 76.84264373779297
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.736851851851531
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.87673568725586
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.747777777777456
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 118.08043670654297
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.776851851851529
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.38005065917969
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.77870370370338
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.59121322631836
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.78018518518486
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 45.07883071899414
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.782037037036711
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.19692611694336
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.820185185184859
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 119.48018646240234
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.774814814814489
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.94346618652344
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.738518518518193
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.19955825805664
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.693148148147823
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.419029235839844
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.684074074073749
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 113.77374267578125
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.638703703703379
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.38631439208984
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.593333333333009
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.936378479003906
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.557037037036713
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.410675048828125
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.547962962962639
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 118.33390808105469
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.502592592592269
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.57276916503906
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.466296296295973
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 45.084922790527344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.468148148147823
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 40.19716262817383
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.506666666666339
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 118.40773010253906
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.508148148147819
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 115.6882095336914
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.509629629629299
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.15263748168945
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.511481481481149
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.8408203125
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.540555555555221
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 114.31635284423828
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.542407407407071
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 107.55086517333984
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.543888888888551
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 52.97313690185547
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.545740740740401
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.411842346191406
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.574444444444104
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 118.54695129394531
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.585370370370029
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 115.7349853515625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.587222222221879
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1607666015625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.588703703703359
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.841339111328125
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.618148148147801
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 114.64307403564453
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.619999999999651
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.50924682617188
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.621851851851501
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.899452209472656
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.623333333332981
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.41251754760742
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.652407407407054
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 107.71188354492188
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.654629629629274
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.52960205078125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.656481481481124
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.592430114746094
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.667407407407049
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.41282272338867
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.696481481481121
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.58192443847656
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.698333333332972
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.6490478515625
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.699814814814452
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 45.09382629394531
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.710740740740377
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 118.78931427001953
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.739814814814449
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.59884643554688
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.74129629629593
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 88.34078979492188
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.743148148147781
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 45.0950813293457
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.744629629629261
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.19755935668945
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.773333333332965
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 118.84285736083984
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.78425925925889
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 115.83037567138672
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.78574074074037
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.17734146118164
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.787222222221851
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.84239959716797
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.816296296295924
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 118.9007339477539
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.770925925925554
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.66471099853516
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.725555555555184
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.18030548095703
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.689259259258888
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.84259033203125
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.680185185184814
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 115.5362777709961
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.634814814814444
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.62552642822266
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.598518518518148
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.049373626708984
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.553148148147778
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.8342170715332
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.544074074073704
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 115.66277313232422
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.498703703703334
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 under L -> open mv101.
+temperature du moteur 67.64112854003906
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.500555555555184
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.05674362182617
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.502037037036664
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.83469009399414
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.531111111110736
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 115.78591918945312
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.532592592592216
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.65608978271484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.534444444444066
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.063812255859375
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.535925925925546
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.835140228271484
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.564999999999619
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 115.90556335449219
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.566481481481099
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.67042541503906
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.568333333332949
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.07058334350586
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.569814814814429
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.41493225097656
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.607962962962575
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 119.11163330078125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.609444444444055
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.69569396972656
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.611296296295905
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 59.67887496948242
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.612777777777385
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 41.61534118652344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.623703703703309
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.19780731201172
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.643333333332937
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.12661743164062
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.644814814814417
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.38867950439453
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.646666666666267
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 45.06000900268555
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.648148148147747
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.196197509765625
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.67685185185145
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 119.19073486328125
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.678703703703301
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.16009521484375
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.680185185184781
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 48.346641540527344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.682407407407002
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.41555404663086
+etat de la pompe 0
+etat de la vanne : 1
+niveau d eau dans la cuve 0.711481481481075
+ETAT : pas de refroidissement moteur & remplissage cuve, donc TEMP croit et LIT croit fortement
+temperature du moteur 116.37022399902344
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.713333333332926
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.72444915771484
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.714814814814406
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.92213439941406
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.726111111110701
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.83720779418945
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.755185185184775
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.7232894897461
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.757037037036625
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.94080352783203
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.758518518518105
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 42.94493865966797
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.76944444444403
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.8437385559082
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.798518518518104
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 108.73116302490234
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.799999999999584
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 77.720458984375
+etat de la pompe 1
+etat de la vanne : 1
+niveau d eau dans la cuve 0.801481481481064
+ETAT : refroidissement moteur & remplissage cuve, donc TEMP decroit et LIT croit faiblement
+INFO PLC1 - lit101 over H -> close mv101.
+temperature du moteur 45.10490798950195
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.74703703703662
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 40.19793701171875
+etat de la pompe 0
+etat de la vanne : 0
+niveau d eau dans la cuve 0.737962962962546
+ETAT : pas refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT stagne
+temperature du moteur 116.68746185302734
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.683518518518102
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 67.75929260253906
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+temperature du moteur 53.1125602722168
+etat de la pompe 1
+etat de la vanne : 0
+niveau d eau dans la cuve 0.65629629629588
+ETAT : refroidissement moteur & cuve ne se remplit pas, donc TEMP decroit et LIT croit faiblement
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.10/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.10/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.10/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/root/sauvegarde du 16-10/sauvegarde/plc1.py", line 96, in <module>
+    plc1 = SwatPLC1(
+  File "/usr/local/lib/python3.10/dist-packages/minicps/devices.py", line 98, in __init__
+    self._start()
+  File "/usr/local/lib/python3.10/dist-packages/minicps/devices.py", line 315, in _start
+    self.main_loop()
+  File "/root/sauvegarde du 16-10/sauvegarde/plc1.py", line 41, in main_loop
+    t201 = float(self.receive(T201_2, PLC2_ADDR))
+ValueError: could not convert string to float: "b'"
